@@ -1,0 +1,44 @@
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.woff);
+  }
+  
+  @font-face {
+    font-family: vazirlight;
+    src: url(../fonts/Vazir-Light.woff);
+  }
+  
+  @font-face {
+    font-family: vazirthin;
+    src: url(../fonts/Vazir-Thin.woff);
+  }
+  @font-face {
+    font-family: vazirbold;
+    src: url(../fonts/Vazir-Bold.woff);
+  }
+
+body{
+    direction: rtl !important;
+    background: #f8fcff !important;
+    font-family: "vazirbold" !important;
+}
+
+#navbar-brand-icon{
+    width: 32px;
+    height: auto;
+}
+
+.bg-body-tertiary{
+    background: linear-gradient(-45deg, #bee9ff, #dfeefc);
+    background-color: transparent !important;
+}
+
+
+#intro-p{
+    text-align: justify;
+}
+
+.intro-img{
+    max-width: 512px;
+    height: auto;
+}
